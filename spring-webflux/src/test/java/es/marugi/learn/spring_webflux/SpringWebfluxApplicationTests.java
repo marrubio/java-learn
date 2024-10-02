@@ -1,13 +1,13 @@
-package com.example.demo;
+package es.marugi.learn.spring_webflux;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class SpringWebfluxApplicationTests {
 
-  @Test
-  void contextLoads() {
-  }
+	@Test
+	void contextLoads() {
+	}
 
 }
