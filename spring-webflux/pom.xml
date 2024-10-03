@@ -8,10 +8,10 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>es.marugi.learn</groupId>
-	<artifactId>spring-webflux</artifactId>
+	<groupId>es.marugi.learn.spring</groupId>
+	<artifactId>webflux</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-webflux</name>
+	<name>webflux</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -30,6 +30,12 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>

@@ -1,13 +1,15 @@
-package es.marugi.learn.spring_webflux;
+package es.marugi.learn.spring.filters;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class SpringWebfluxApplication {
 
+@SpringBootApplication
+public class FiltersApplication {
+
+  
 	public static void main(String[] args) {
-		SpringApplication.run(SpringWebfluxApplication.class, args);
+		SpringApplication.run(FiltersApplication.class, args);
 	}
 
 }
